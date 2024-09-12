@@ -49,7 +49,15 @@ Como um lego, você irá utilizar peças para criar algoritmos, ou seja, para re
 - Acesso a propriedade dos objetos (uma propriedade é uma associação entre um nome (ou chave) e um valor)
 - Todo objeto possui uma propriedade e um valor (value: 'algum valor aqui')
 
+## Funções
+- Criar, passar argumentos
+- Executar
+- Arrow function / Named function
+
 ## Métodos e/ou funções
 - Coisas similares
    - O método geralmente está dentro de um objeto
    - Função geralmente fica fora de um objeto
+
+## Estruturas de repetição
+- While
