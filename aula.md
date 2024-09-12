@@ -20,3 +20,36 @@ Como um lego, você irá utilizar peças para criar algoritmos, ou seja, para re
 - Coletar os dados
 - Processar os dados (manipular, alterar...)
 - Apresentar os dados para os usuários
+
+## Escopos e Variáveis
+* O *let* permite que eu altere o valor da variável ao decorrer do código, já o *const* não permite essa alteração
+
+- Variáveis globais e locais (O que é escrito dentro de chaves é local e o que é escrito fora e global)
+- Constantes
+
+* A ordem dos comandos influencia na apresentação do resultado
+
+## Tipos de dados
+
+- Strings (textos): ", ', `
+- Number (números): 2, 1.5...
+- Function (Funções): Ficam fora de objetos, já métodos ficam inclusos.
+
+## Operadores
+- Operadores de atribuição de valores (=)
+- Operador de concatenação, junção de valores na exibição (+)
+
+## Arrays 
+
+- Organização de listas que armazenam qualquer tipo de dado, estrutura de dados, representados por valores dentros de colchetes
+
+## Objetos
+- Atributos e métodos
+- Criação e manipulação de objetos 
+- Acesso a propriedade dos objetos (uma propriedade é uma associação entre um nome (ou chave) e um valor)
+- Todo objeto possui uma propriedade e um valor (value: 'algum valor aqui')
+
+## Métodos e/ou funções
+- Coisas similares
+   - O método geralmente está dentro de um objeto
+   - Função geralmente fica fora de um objeto
