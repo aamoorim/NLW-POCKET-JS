@@ -38,6 +38,7 @@ Como um lego, você irá utilizar peças para criar algoritmos, ou seja, para re
 ## Operadores
 - Operadores de atribuição de valores (=)
 - Operador de concatenação, junção de valores na exibição (+)
+- Operadores de comparação: ==, !=, <, >, <=, >=
 
 ## Arrays 
 
@@ -64,6 +65,7 @@ Como um lego, você irá utilizar peças para criar algoritmos, ou seja, para re
 
 ## Condicionais
 - Switch
+- If/else
 
 ## Módulos em Node.JS
 - Importação de módulos (require, commonJS)

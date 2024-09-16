@@ -1,6 +1,25 @@
-// parei no minuto 16:30 da segunda aula
+const { select, input} = require('@inquirer/prompts')
 
-const { select } = require('@inquirer/prompts')
+let meta = {
+    value: 'Tomar 3L de água por dia',
+    checked: false,
+}
+
+let metas = [ meta ]
+
+const cadastrarMeta = async () => {
+    const meta = await input({message: "Digite a meta:"})
+
+    if(meta.length == 0){
+        console.log('A meta não pode ser vazia.')
+        return
+    }
+
+    metas.push(
+        { value: meta, checked: false}
+    )
+
+}
 
 const start = async ()=>{
         
@@ -27,13 +46,14 @@ const start = async ()=>{
         })
 
         switch(opcao){
-             case "Cadastrar": 
-                console.log("Vamos Cadastrar")
+            case "Cadastrar": 
+                await cadastrarMeta()
+                console.log(metas)
                 break
             case "Listar":
                 console.log("Vamos listar")
                 break
-             case "Sair":
+            case "Sair":
                 console.log("Até a próxima!")
                 return
             }
