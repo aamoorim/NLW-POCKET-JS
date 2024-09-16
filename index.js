@@ -1,7 +1,31 @@
-function start(){
+// parei no minuto 16:30 da segunda aula
+
+const { select } = require('@inquirer/prompts')
+
+const start = async ()=>{
         
     while(true){
-        let opcao = "Cadastrar"
+
+        const opcao = await select({
+            message: "Menu >",
+            choices: [
+                {
+                    name: "Cadastrar meta",
+                    value: "Cadastrar"
+                },
+                
+                {
+                    name: "Listar meta",
+                    value: "Listar"
+                },
+
+                {
+                    name: "Sair",
+                    value: "Sair"
+                },
+            ]
+        })
+
         switch(opcao){
              case "Cadastrar": 
                 console.log("Vamos Cadastrar")
@@ -10,6 +34,7 @@ function start(){
                 console.log("Vamos listar")
                 break
              case "Sair":
+                console.log("Até a próxima!")
                 return
             }
     }
