@@ -1,3 +1,5 @@
+// min 17:36 aula 3
+
 const { select, input, checkbox} = require('@inquirer/prompts')
 
 let meta = {
@@ -60,8 +62,24 @@ const metasRealizadas = async () => {
     }
 
     await select({
-        message: "Metas Realizadas",
+        message: "Metas Realizadas: " + realizadas.length,
         choices: [...realizadas]
+    })
+}
+
+const metasAbertas = async () => {
+    const Abertas = metas.filter((meta) => {
+        return meta.checked != true
+    })
+
+    if(Abertas.length == 0){
+        console.log("Não existem metas abertas! :)")
+        return
+    }
+    
+    await select({
+        message: "Metas Abertas: " + Abertas.length,
+        choices: [...Abertas]
     })
 }
 
@@ -86,6 +104,11 @@ const start = async () => {
                     name: "Metas Realizadas",
                     value: "Realizadas"
                 },
+                
+                {
+                    name: "Metas Abertas",
+                    value: "Abertas"
+                },
 
                 {
                     name: "Sair",
@@ -104,6 +127,9 @@ const start = async () => {
                 break
             case "Realizadas":
                 await metasRealizadas()
+                break
+            case "Abertas":
+                await metasAbertas()
                 break
             case "Sair":
                 console.log("Até a próxima!")
