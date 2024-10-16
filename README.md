@@ -4,6 +4,8 @@
 
 O projeto consiste em um sistema de controle de metas manipulado através de um terminal.
 
+![preview](./github/preview.png)
+
 ## 🛠️ Tecnologias
 
 - Javascript
