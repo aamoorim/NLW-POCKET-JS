@@ -10,8 +10,6 @@ O projeto consiste em um sistema de controle de metas manipulado através de um 
 - JSON
 - Git e Github
 
-🔗[Clique aqui para acessar](https://670f0ea85c232c9833ee5e5d--amoranlwesports.netlify.app)
-
 
 ### Features
 
