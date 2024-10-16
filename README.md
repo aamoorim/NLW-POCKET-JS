@@ -4,6 +4,7 @@
 
 O projeto consiste em um sistema de controle de metas manipulado através de um terminal.
 
+## ✨ PREVIEW
 ![preview](./github/preview.png)
 
 ## 🛠️ Tecnologias
@@ -13,7 +14,7 @@ O projeto consiste em um sistema de controle de metas manipulado através de um 
 - Git e Github
 
 
-### Features
+### 🧸 Features
 
 - [x] Cadastro de metas
 - [x] Listagem de metas
