@@ -17,11 +17,17 @@ O projeto consiste em um sistema de controle de metas manipulado através de um 
 ### 🧸 Features
 
 - [x] Cadastro de metas
+    - Permite que você registre um objetivo que você deseja atingir;
 - [x] Listagem de metas
+    - Realiza a listagem das metas cadastradas e permite a marcação destas como concluídas ou em aberto;
 - [x] Metas realizadas
+    - Faz a listagem e contagem de quantas metas registradas foram marcadas como realizadas;
 - [x] Metas abertas
+    - Faz a listagem e contagem de metas em aberto (não realizadas);
 - [x] Deletar metas
+    - Permite a exclusão de metas do registro;
 - [x] Opção sair
+    - Realiza a finalização do programa.
 
 ## 🌸 Contato
 **Email:** amorimmariana007@gmail.com 
