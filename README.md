@@ -12,6 +12,7 @@ O projeto consiste em um sistema de controle de metas manipulado através de um 
 - Javascript
 - JSON
 - Git e Github
+- NodeJS
 
 
 ### 🧸 Features
